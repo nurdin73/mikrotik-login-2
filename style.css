@@ -1,0 +1,129 @@
+* {
+  padding:0;
+  margin: 0;
+}
+.navbar-brand {
+  color: #FF8600;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+.nav-link {
+  font-family: 'Poppins';
+}
+.bg-primary {
+  background-color: #758bfd !important;
+}
+.bg-blue {
+  background-color: #27187E;
+}
+.jumbotron {
+  border-radius: 0;
+}
+.banner {
+  display: flex;
+  align-items: center;
+}
+.banner div h1 {
+  font-family: 'Lato';
+  font-weight: 800;
+  color: #27187E;
+}
+.banner div p {
+  font-family: 'Poppins';
+  font-weight: 200;
+  color: #F1F2F6;
+}
+.font-poppins {
+  font-family: 'Poppins';
+}
+.font-lato {
+  font-family: 'Lato';
+}
+.font-montserrat {
+  font-family: 'Montserrat';
+}
+
+.login {
+  background-color: #27187E;
+  padding: 30px 20px;
+}
+
+.btn-login {
+  background-color: #758bfd;
+  color: #F1F2F6;
+  transition: .2s;
+}
+.btn-login:hover {
+  background-color: rgb(65, 41, 204);
+  color: #F1F2F6;
+}
+
+.btn-primary {
+  background-color: #27187E;
+  border: none;
+}
+.spesial {
+  height: 450px;
+  position: relative;
+}
+.special-offer {
+  position: absolute;
+  background-color: #FF8600;
+  color: #27187E;
+  font-weight: bold;
+  font-family: 'Montserrat';
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 55px;
+  height: 55px;
+  top: -20px;
+  right: -20px;
+  font-size: 10px;
+}
+
+.footer {
+  color: #27187E;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .spesial {
+    height: 400px;
+  }
+  .banner2 {
+    display: none;
+  }
+  .hero {
+    font-size: 10px !important;
+  }
+  .benefit {
+    display: none;
+  }
+  .map {
+    display: none;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .banner div h1 {
+    font-size: 30px !important;
+  }
+  .banner div p {
+    font-size: 14px !important;
+  }
+  .spesial {
+    height: 300px;
+  }
+  .pricing {
+    margin-top: 0 !important;
+  }
+  .pricing p {
+    font-size: 12px;
+  }
+  
+}
